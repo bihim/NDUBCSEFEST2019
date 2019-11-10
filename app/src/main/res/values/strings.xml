@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NDUB CSE FEST 2019</string>
+    <string name="Calendar">Calendar</string>
+    <string name="events">Events</string>
+    <string name="Developer">Developer</string>
+    <string name="developer_name">Zubaer Alam Bihim</string>
+    <string name="email">zubaerbihim@gmail.com</string>
+    <string name="github">github.com/bihim</string>
+    <string name="contact">01911911088</string>
+    <string name="facebook">facebook.com/zubaeralam.bihimii</string>
+
+
+</resources>

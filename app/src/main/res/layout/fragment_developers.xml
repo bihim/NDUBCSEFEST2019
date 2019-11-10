@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:src="@drawable/profile_developer"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        app:civ_border_color="#BEBEBE"
+        app:civ_border_width="2dp"
+        android:layout_margin="12dp"/>
+
+    <TextView
+        android:text="@string/developer_name"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111111"/>
+
+    <TextView
+        android:text="@string/email"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4d4d4d"
+        android:drawableStart="@drawable/ic_gmail"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:text="@string/github"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4d4d4d"
+        android:drawableStart="@drawable/ic_github_logo"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:text="@string/facebook"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4d4d4d"
+        android:drawableStart="@drawable/ic_facebook"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:text="@string/contact"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4d4d4d"
+        android:drawableStart="@drawable/ic_call"
+        android:drawablePadding="10dp"/>
+
+
+
+
+
+
+</LinearLayout>
